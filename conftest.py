@@ -25,7 +25,7 @@ def logger():
         level=logging.INFO,
         format="%(asctime)s - %(levelname)s - %(message)s",
         datefmt="%Y-%m-%d %H:%M:%S",
-        filemode="w",
+        # filemode="w",
     )
     return logging.getLogger(__name__)
 
